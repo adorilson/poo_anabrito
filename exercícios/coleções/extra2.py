@@ -39,6 +39,7 @@
 
 # 1. Por que no desafio 78 foi usado um laço de repetição para inserir os dados enquanto que no desafio 74 não foi usado?
 # Seria possível usar laço de repetição no desafio 74. Se sim, faça essa mudança.
+
 # RESPOSTA: Porque o desafio 74 solicita um programa que gere 5 números aleatórios, ou seja, o algoritmo que escolhe. 
 # Enquanto o desafio 78 solicita que digitemos os valores que quisermos.
 # Isso se trata de quem escolhe. Se é o programa (como no desafio 74) ou o programador (como no desafio 78).
@@ -52,7 +53,11 @@
 # estruturas condicionais? É possível usar max e min no desafio 78? É possível usar variáveis e estruturas
 # condicionais no desafio 74? Se sim, faça essas mudanças.
 
-# 
+# RESPOSTA: 
+
+
+
+
 
 
 # DESAFIOS 79 - VALORES ÚNICOS
