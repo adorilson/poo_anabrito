@@ -5,12 +5,10 @@
 
 import random
 
-print()
-
 dicionario = {}
 
 for jogador in range(4):
-    id = int(input("Digite o número do jogador: "))
+    id = int(input('\nDigite o número do jogador: '))
     dado = random.randint(1, 6)
     dicionario[id] = dado
     print(f'O jogador {id} recebeu o número {dado}', end='\n\n')
