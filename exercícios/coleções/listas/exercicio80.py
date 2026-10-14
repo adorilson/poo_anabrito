@@ -8,5 +8,4 @@ numeros = []
 for numero in range(5):
     numeros.append(int(input("Digite um número aqui: ")))
 
-print()
-print(f"Todos os números ordenados na lista são esses → {sorted(numeros)}", end='\n\n')
+print(f"\nTodos os números ordenados na lista são esses → {sorted(numeros)}", end='\n\n')
