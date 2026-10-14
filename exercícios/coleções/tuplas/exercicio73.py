@@ -6,17 +6,17 @@ times_campeonatobr = ('Flamengo', 'Palmeiras', 'Athletico-PR', 'Fluminense', 'Ba
 'Cruzeiro', 'Coritiba', 'Atlético-MG', 'Red Bull Bragantino', 'Corinthians', 'São Paulo', 
 'Botafogo', 'Vitória', 'Santos', 'Grêmio', 'Mirassol', 'Vasco', 'Internacional', 'Remo', 'Chapecoense')
 
-print()
-print(f"Os 5 primeiros colocodos do Brasileirão: {times_campeonatobr[0:6]}", end='\n\n')
-print(f"Os 4 últimos colocados do Brasileirão: {times_campeonatobr[-4:]}", end='\n\n')
-print(f"Os times do Brasileirão em ordem alfabética: {sorted(times_campeonatobr)}", end='\n\n')
+print(f"\nOs 5 primeiros colocodos do Brasileirão: {times_campeonatobr[0:6]}")
+print(f"\nOs 4 últimos colocados do Brasileirão: {times_campeonatobr[-4:]}")
+print(f"\nOs times do Brasileirão em ordem alfabética: {sorted(times_campeonatobr)}")
 
 pos_chape = times_campeonatobr.index('Chapecoense') + 1
-print(f"O time Chapecoense está na posição: {pos_chape}", end='\n\n')
+print(f"\nO time Chapecoense está na posição: {pos_chape}")
 
-print(f"Quantidade de times: {len(times_campeonatobr)}", end='\n\n')
+print(f"\nQuantidade de times: {len(times_campeonatobr)}")
 
 for pos, time in enumerate(times_campeonatobr):
     print(pos + 1, end='')
     print(' - ', end='') 
-    print(time, end='\n\n')
+    print(time)
+print()
