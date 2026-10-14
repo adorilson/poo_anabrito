@@ -2,8 +2,6 @@
 # Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em tuplas. 
 # No final, mostre: A) Quantas vezes apareceu q; B) Em que posição foi digitado o primeiro valor 3; C) Quais foram os números pares.
 
-print()
-
 numeros = []
 
 for valor in range(4):
@@ -11,7 +9,8 @@ for valor in range(4):
 
 tupla = tuple(numeros)
 
-print(f"\nVocê digitou os números → {tupla}")
+print()
+print(f"Você digitou os números → {tupla}")
 print(f"O número 13 apareceu {numeros.count(13)}x na tupla.")
 
 pos_num3 = numeros.index(3)
