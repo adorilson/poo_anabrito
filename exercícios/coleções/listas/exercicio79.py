@@ -3,16 +3,16 @@
 # Caso o número já exista lá dentro, ele não será adicionado.
 # No final, serão exibidos todos os valores únicos digitados, em ordem crescente.
 
-quantidade = int(input("Quantos números deseja digitar? "))
+quantidade = int(input("\nQuantos números deseja digitar? "))
 
 numeros = []
 
 for numero in range(quantidade):
-    numeros.append(int(input("Digite um número aqui: ")))
+    numero = int(input("Digite um número aqui: "))
+    numeros.append(numero)
 
 if numero in numeros:
     not numeros.append(numero)
     print("Número não adicionado!")
 
-print()
 print(f"\nTodos os números ordenados na lista são esses → {sorted(numeros)}", end='\n\n')
