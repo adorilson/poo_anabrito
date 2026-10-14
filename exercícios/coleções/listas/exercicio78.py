@@ -10,6 +10,5 @@ for numero in range(5):
 pos_max = numeros.index(max(numeros))
 pos_min = numeros.index(min(numeros))
 
-print()
-print(f"O maior valor digitado foi {max(numeros)} na posição {pos_max + 1}.")
+print(f"\nO maior valor digitado foi {max(numeros)} na posição {pos_max + 1}.")
 print(f"O menor valor digitado foi {min(numeros)} na posição {pos_min}.", end='\n\n')
