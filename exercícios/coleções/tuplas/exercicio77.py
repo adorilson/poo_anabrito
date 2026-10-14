@@ -2,7 +2,7 @@
 # Crie uma programa que tenha uma tupla com várias palavras (não usar acentos). 
 # Depois disso, você deve mostrar, para cada palavra, quais são suas vogais.
 
-palavras =('ana', 'volei',
+palavras = ('ana', 'volei',
            'xadrez', 'patinacao',
            'academia', 'luta',
            'praia', 'festa',
