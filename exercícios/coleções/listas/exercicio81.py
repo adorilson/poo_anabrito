@@ -2,8 +2,6 @@
 # Crie um programa que vai ler vários números e colocar numa lista.
 # Depois disso, mostre: A)Quantos números foram digitados; B)A lista de valores, ordenada da forma descrescente; C)Se o valor 5 foi digitado e está ou não na lista; 
 
-print()
-
 quantidade = int(input("Quantos números deseja digitar? "))
 
 numeros = []
@@ -13,6 +11,7 @@ for numero in range(quantidade):
 
 numeros.sort(reverse=True)
 
+print()
 print(f"\nOs números na lista ordenada são esses → {sorted(numeros)}")
 print(f"Foram digitados {len(numeros)} números.")
 print(f"Os números em ordem descrescente são esses → {numeros}")
