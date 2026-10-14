@@ -12,7 +12,6 @@ for numero in range(5):
 
 tupla_ordenada = tuple(sorted(tupla))
 
-print()
-print(f"Números gerados aleatoriamente em ordem crescente: {tupla_ordenada}")
+print(f"\nOs números gerados aleatoriamente em ordem crescente são: {tupla_ordenada}")
 print(f"O menor número é: {min(tupla_ordenada)}")
 print(f"O maior número é: {max(tupla_ordenada)}", end='\n\n')
