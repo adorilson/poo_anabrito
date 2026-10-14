@@ -22,4 +22,4 @@ for palavra in palavras:
     for letra in palavra:
         if letra in 'aeiou':
             print(letra, end=' ')
-print('\n')
+print()
