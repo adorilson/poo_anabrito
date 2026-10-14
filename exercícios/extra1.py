@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EXERCICIO EXTRA 1 - MANIPULACAO DE COLEÇÕES
 
 a = [0, 1, 2, 3, 4, 5, 5, 0]
@@ -57,3 +58,31 @@ def diferenca_simetrica(a, b):
     return ds
 ds = diferenca_simetrica(a, b)
 print(f'7 - Os valores da diferença simétrica que estão em A e B são {ds}', end='\n\n')
+=======
+# EXERCICIO EXTRA - MANIPULACAO DE COLECOES
+
+
+
+
+def remove_repeticao(lista):
+    c = []
+    for elemento in lista:
+        if elemento not in c:
+            c.append(elemento)
+
+    return c
+
+
+
+# principal
+a = [0, 1, 2, 3, 4, 5, 5, 0]
+b = [4, 5, 6, 7, 8, 9, 9, 4]
+
+
+print(a, b)
+
+a_sem_repeticao = remove_repeticao(a)
+b_sem_repeticao = remove_repeticao(b)
+
+print(a_sem_repeticao, b_sem_repeticao)
+>>>>>>> f267ecff0ae2b7e5a9fea1f693fb79f38c9ad6cf
