@@ -6,7 +6,6 @@ num_extenso = ('zero', 'um', 'dois', 'três','quatro', 'cinco', 'seis',
 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze','catorze', 
 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
 
-ler_numero = int(input("Digite um número entre 0 e 20: "))
+ler_numero = int(input("\nDigite um número entre 0 e 20: "))
 
-print()
-print(f"{num_extenso[ler_numero]}", end='\n\n')
+print(f"\n{num_extenso[ler_numero]}", end='\n\n')
