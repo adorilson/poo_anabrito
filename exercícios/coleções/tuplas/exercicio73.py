@@ -19,5 +19,4 @@ print(f"Quantidade de times: {len(times_campeonatobr)}", end='\n\n')
 for pos, time in enumerate(times_campeonatobr):
     print(pos + 1, end='')
     print(' - ', end='') 
-    print(time)
-print()
+    print(time, end='\n\n')
