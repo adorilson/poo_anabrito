@@ -3,8 +3,6 @@
 # Depois disso, crie duas listas extras que vão contar apenas os valores pares e ímpares digitados, respectivamente.
 # No final, mostre o conteúdo das três listas geradas.
 
-print()
-
 quantidade = int(input("Quantos números deseja digitar? "))
 
 numeros = []
@@ -21,6 +19,7 @@ for indice, numero in enumerate(numeros):
     else:
         impares.append(numero)
 
+print()
 print(f"\nA lista com todos os números → {numeros}")
 print(f"A lista dos números pares → {pares}")
 print(f"A lista dos números impares → {impares}", end='\n\n')
