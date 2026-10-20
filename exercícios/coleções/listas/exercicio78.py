@@ -4,6 +4,7 @@
 
 numeros = []
 
+print()
 for numero in range(5):
     numeros.append(int(input("Digite um número aqui: ")))
 
