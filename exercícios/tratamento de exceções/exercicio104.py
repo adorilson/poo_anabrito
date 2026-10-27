@@ -9,7 +9,11 @@ def leiaInt(mensagem):
         n = input(mensagem)
         if n.isdigit():
             print(f'Você acabou de digitar o número {n}')
+            return int(n)
         else:
             print('ERRO! Digite um número válido')
 
-n = leiaInt('\nDigite um número: ')
+
+if __name__ == '__main__':
+    numero = leiaInt('\nDigite um número: ')
+    print(f'{numero=}')
